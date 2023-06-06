@@ -9,6 +9,11 @@
 	<!--/Preconnect and DNS-Prefetch-->
 	<!--Data Layer to enable rich data collection and targeting-->
 	<!--/Data Layer-->
+function uuidv4() {
+  return ([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g, c =>
+    (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
+  );
+}
 	<script>
 		let pageName = document.location.pathname.split('/')[1];
 		window.adobeDataLayer = window.adobeDataLayer || [];
@@ -23,9 +28,7 @@
 						"pageName": pageName,
 						"ErrorPage": "", // incase of 404 error page only
 						"publishDate": "05/04/2023",
-						"errorCode": "",
-						"contentType": "",
-						"errorType": "",
+						"FPID":uuidv4();
 					},
 					"category": {
 						"siteSection1": "",
