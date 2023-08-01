@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>About Page</title>
+
+
+	<!-- Adobe: Start Scripts-->
+	<!--/Preconnect and DNS-Prefetch-->
+	<!--Data Layer to enable rich data collection and targeting-->
+	<!--/Data Layer-->
+	<script src="project.js"></script>
+	<script>
+		let pageName = document.location.pathname.split('/')[1];
+		window.adobeDataLayer = window.adobeDataLayer || [];
+		
+	</script>
+	<!--Launch Header Embed Code: REPLACE THE NEXT LINE WITH THE EMBED CODE FROM YOUR OWN DEVELOPMENT ENVIRONMENT-->
+	<script src="<script src="https://assets.adobedtm.com/22bf1a13013f/50d26e9a07f3/launch-ac268e8ba8d1-development.min.js" async></script>"
+		async></script>
+	<!--/Launch Header Embed Code-->
+	<!-- Adobe: End Scripts-->
+</head>
+
+<body>
+	<h1>This is test file using different launch scripts</h1>
+  <a href="https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en">To Learn About websdk click on this link</a>
+  </body>
+
+</html>
