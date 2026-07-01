@@ -286,8 +286,8 @@ window.PROFILE_MIRROR = {
     const root = document.getElementById("featured-mount");
     if (!root || !window.PROFILE_MIRROR.featured) return;
 
-    const items = window.PROFILE_MIRROR.featured.slice(0, 10);
-    while (items.length < 10) {
+    const items = window.PROFILE_MIRROR.featured.slice(0, 6);
+    while (items.length < 6) {
       items.push({ title: "", subtitle: "", url: "https://www.linkedin.com/in/prachijn0/" });
     }
 
