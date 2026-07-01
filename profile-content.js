@@ -7,7 +7,7 @@ window.PROFILE_MIRROR = {
   /**
    * LinkedIn order (newest first). Use a company block when one employer has multiple roles.
    * Flat entry: title, company, employmentType, location, start, end, duration, optional badge, description, bullets.
-   * Company block: company, companyDuration, roles: [{ title, start, end, duration, location, badge?, description?, bullets? }].
+   * Company block: company, companyDuration, roles: [{ title, start, end, duration, location, badge?, description?, bullets?? }].
    */
   experience: [
     {
