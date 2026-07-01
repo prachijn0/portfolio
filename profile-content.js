@@ -128,6 +128,16 @@ window.PROFILE_MIRROR = {
       subtitle: "",
       url: "https://experienceleaguecommunities.adobe.com/adobe-analytics-3/unlock-the-power-of-custom-datastreams-for-your-mobile-apps-elevate-your-data-collection-strategy-12783",
     },
+    {
+      title: "Stitching the story: How loan events and web hits come together in Customer Journey Analytics",
+      subtitle: "",
+      url: "https://experienceleague.adobe.com/en/perspectives/stitching-the-story-how-loan-events-and-web-hits-come-together-in-customer-journey-analytics",
+    },
+    {
+      title: "Cross-device modal suppression with RTCDP for Target",
+      subtitle: "",
+      url: "https://experienceleague.adobe.com/en/perspectives/cross-device-modal-suppression-with-rtcdp-for-target",
+    },
   ],
 
   /** Same fields as LinkedIn: name, issuer, issued, expires (or ""), credentialId, optional url */
