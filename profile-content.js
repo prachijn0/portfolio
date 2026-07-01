@@ -124,11 +124,6 @@ window.PROFILE_MIRROR = {
       url: "https://experienceleaguecommunities.adobe.com/adobe-analytics-3/improved-visitor-identification-using-adobe-s-first-party-device-id-12689",
     },
     {
-      title: "Transform Your Mobile App Analytics with Customized Datastreams!",
-      subtitle: "",
-      url: "https://experienceleaguecommunities.adobe.com/adobe-analytics-3/unlock-the-power-of-custom-datastreams-for-your-mobile-apps-elevate-your-data-collection-strategy-12783",
-    },
-    {
       title: "Stitching the story: How loan events and web hits come together in Customer Journey Analytics",
       subtitle: "",
       url: "https://experienceleague.adobe.com/en/perspectives/stitching-the-story-how-loan-events-and-web-hits-come-together-in-customer-journey-analytics",
@@ -138,6 +133,11 @@ window.PROFILE_MIRROR = {
       subtitle: "",
       url: "https://experienceleague.adobe.com/en/perspectives/cross-device-modal-suppression-with-rtcdp-for-target",
     },
+    {
+      title: "Transform Your Mobile App Analytics with Customized Datastreams!",
+      subtitle: "",
+      url: "https://experienceleaguecommunities.adobe.com/adobe-analytics-3/unlock-the-power-of-custom-datastreams-for-your-mobile-apps-elevate-your-data-collection-strategy-12783",
+   },
   ],
 
   /** Same fields as LinkedIn: name, issuer, issued, expires (or ""), credentialId, optional url */
