@@ -37,7 +37,7 @@ window.PROFILE_MIRROR = {
             "Created dashboards for reporting and leverage Adobe workspaces to unit and A/B test and validate analytics changes.",
             "Implemented marketing solutions that deliver on data-driven, personalized, one-to-one, experiences.",
             "Experience with end-to-end product delivery.",
-            "Developed technical expertise on Adobe's cross-channel marketing tool by troubleshooting email & push campaigns, A/B tests, and performance metrics.",
+            "Developed technical expertise on Adobe's cross-channel marketing tool by troubleshooting email & push campaigns, A/B tests, & performance metrics.",
             "Worked with server-side API's (Bulk insertion API, Data Insertion API, Edge API) to upload offline data to adobe's platform to develop custom dashboards, seamlessly access features from different platforms and providing a unified user experience.",
             "Helped clients to strategize and drive their audience creation and activation effort and extract business value from Adobe Audience Manager platform and Adobe Real-Time Customer Data Platform.",
             "Implemented Event forwarding in Adobe Experience Platform to send collected event data to a destination for server-side processing.",
