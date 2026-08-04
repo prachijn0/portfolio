@@ -38,8 +38,8 @@ window.PROFILE_MIRROR = {
             "Implemented marketing solutions that deliver on data-driven, personalized, one-to-one, experiences.",
             "Experience with end-to-end product delivery.",
             "Developed technical expertise on Adobe's cross-channel marketing tool by troubleshooting email & push campaigns, A/B tests, & performance metrics.",
-            "Worked with server-side API's (Bulk insertion API, Data Insertion API, Edge API) to upload offline data to adobe's platform to develop custom dashboards, seamlessly access features from different platforms and providing a unified user experience.",
-            "Helped clients to strategize and drive their audience creation and activation effort and extract business value from Adobe Audience Manager platform and Adobe Real-Time Customer Data Platform.",
+            "Worked with server-side API's (Bulk insertion API, Data Insertion API, Edge API) to upload offline data to adobe's platform to develop custom dashboards, seamlessly access features fr...",
+            "Helped clients to strategize and drive their audience creation and activation effort and extract business value from Adobe Audience Manager platform and Adobe Real-Time Customer Data ...",
             "Implemented Event forwarding in Adobe Experience Platform to send collected event data to a destination for server-side processing.",
             "Managed partnerships with ad-tech companies, ensuring seamless integration with third-party ad platforms and expanding monetization opportunities.",
           ],
@@ -96,7 +96,7 @@ window.PROFILE_MIRROR = {
           duration: "9 mos",
           location: "",
           description:
-            "This project proposes a new form of encryption that is similar to slang in human language. Using the context of the conversation develop substitute words to disguise the real meaning of the message.",
+            "This project proposes a new form of encryption that is similar to slang in human language. Using the context of the conversation develop substitute words to disguise the real meaning ...",
           bullets: [],
         },
       ],
@@ -117,12 +117,12 @@ window.PROFILE_MIRROR = {
       url: "https://experienceleague.adobe.com/en/perspectives/from-anonymous-visitor-to-engaged-lead-how-to-connect-marketo-and-web-sdk-identity",
     },
     {
-      title: "Use the Edge Bridge SDK to "Bridge the Gap" in your mobile app migration process for a quicker and easier Edge Integration.",
+      title: "Use the Edge Bridge SDK to \"Bridge the Gap\" in your mobile app migration process for a quicker and easier Edge Integration.",
       subtitle: "",
       url: "https://experienceleaguecommunities.adobe.com/adobe-analytics-3/is-your-mobile-app-analytics-platform-ready-if-not-let-s-bridge-the-gap-12695",
     },
     {
-      title: "Want to elevate your customer experience? 🚀 Dive into our latest blog to discover how Adobe Journey Optimizer's In-App Messaging Channel can help you engage customers in real-time and drive better outcomes.",
+      title: "Want to elevate your customer experience? 🚀 Dive into our latest blog to discover how Adobe Journey Optimizer's In-App Messaging Channel can help you engage customers in real-tim...",
       subtitle: "",
       url: "https://experienceleaguecommunities.adobe.com/adobe-analytics-3/optimize-your-customer-journey-in-real-time-through-adobe-journey-optimizer-s-in-app-messaging-channel-12753#M530",
     },
@@ -159,7 +159,7 @@ window.PROFILE_MIRROR = {
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
+      .replace(/\"/g, "&quot;");
   }
 
   function bulletsHtml(bullets) {
