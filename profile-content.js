@@ -289,7 +289,7 @@ window.PROFILE_MIRROR = {
     const root = document.getElementById("featured-mount");
     if (!root || !window.PROFILE_MIRROR.featured) return;
 
-    const items = window.PROFILE_MIRROR.featured.slice(0, 6);
+    const items = window.PROFILE_MIRROR.featured.slice(0, 7);
     while (items.length < 7) {
       items.push({ title: "", subtitle: "", url: "https://www.linkedin.com/in/prachijn0/" });
     }
