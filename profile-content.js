@@ -138,6 +138,12 @@ window.PROFILE_MIRROR = {
       subtitle: "",
       url: "https://experienceleaguecommunities.adobe.com/adobe-analytics-3/unlock-the-power-of-custom-datastreams-for-your-mobile-apps-elevate-your-data-collection-strategy-12783",
    },
+    {
+      title: "From anonymous visitor to engaged lead with Marketo",
+      subtitle: "",
+      url: "https://experienceleague.adobe.com/en/perspectives/from-anonymous-visitor-to-engaged-lead-how-to-connect-marketo-and-web-sdk-identity",
+   },
+    
   ],
 
   /** Same fields as LinkedIn: name, issuer, issued, expires (or ""), credentialId, optional url */
@@ -287,7 +293,7 @@ window.PROFILE_MIRROR = {
     if (!root || !window.PROFILE_MIRROR.featured) return;
 
     const items = window.PROFILE_MIRROR.featured.slice(0, 6);
-    while (items.length < 6) {
+    while (items.length < 7) {
       items.push({ title: "", subtitle: "", url: "https://www.linkedin.com/in/prachijn0/" });
     }
 
