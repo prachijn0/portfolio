@@ -105,21 +105,29 @@ window.PROFILE_MIRROR = {
 
   /** Featured: Adobe Experience League community articles */
   featured: [
+    
+     {
+      title: "Cross-device modal suppression with RTCDP for Target",
+      subtitle: "",
+      url: "https://experienceleague.adobe.com/en/perspectives/cross-device-modal-suppression-with-rtcdp-for-target",
+     },
+     {
+      title: "From anonymous visitor to engaged lead with Marketo",
+      subtitle: "",
+      url: "https://experienceleague.adobe.com/en/perspectives/from-anonymous-visitor-to-engaged-lead-how-to-connect-marketo-and-web-sdk-identity",
+    },
     {
-      title:
-        'Use the Edge Bridge SDK to "Bridge the Gap" in your mobile app migration process for a quicker and easier Edge Integration.',
+      title: "Use the Edge Bridge SDK to "Bridge the Gap" in your mobile app migration process for a quicker and easier Edge Integration.",
       subtitle: "",
       url: "https://experienceleaguecommunities.adobe.com/adobe-analytics-3/is-your-mobile-app-analytics-platform-ready-if-not-let-s-bridge-the-gap-12695",
     },
     {
-      title:
-        "Want to elevate your customer experience? 🚀 Dive into our latest blog to discover how Adobe Journey Optimizer's In-App Messaging Channel can help you engage customers in real-time and drive better outcomes.",
+      title: "Want to elevate your customer experience? 🚀 Dive into our latest blog to discover how Adobe Journey Optimizer's In-App Messaging Channel can help you engage customers in real-time and drive better outcomes.",
       subtitle: "",
       url: "https://experienceleaguecommunities.adobe.com/adobe-analytics-3/optimize-your-customer-journey-in-real-time-through-adobe-journey-optimizer-s-in-app-messaging-channel-12753#M530",
     },
     {
-      title:
-        "Adobe's First-Party Device ID (FPID) to help marketers more consistently deliver personalized digital experiences to their customers.",
+      title: "Adobe's First-Party Device ID (FPID) to help marketers more consistently deliver personalized digital experiences to their customers.",
       subtitle: "",
       url: "https://experienceleaguecommunities.adobe.com/adobe-analytics-3/improved-visitor-identification-using-adobe-s-first-party-device-id-12689",
     },
@@ -129,20 +137,10 @@ window.PROFILE_MIRROR = {
       url: "https://experienceleague.adobe.com/en/perspectives/stitching-the-story-how-loan-events-and-web-hits-come-together-in-customer-journey-analytics",
     },
     {
-      title: "Cross-device modal suppression with RTCDP for Target",
-      subtitle: "",
-      url: "https://experienceleague.adobe.com/en/perspectives/cross-device-modal-suppression-with-rtcdp-for-target",
-    },
-    {
       title: "Transform Your Mobile App Analytics with Customized Datastreams!",
       subtitle: "",
       url: "https://experienceleaguecommunities.adobe.com/adobe-analytics-3/unlock-the-power-of-custom-datastreams-for-your-mobile-apps-elevate-your-data-collection-strategy-12783",
    },
-    {
-      title: "From anonymous visitor to engaged lead with Marketo",
-      subtitle: "",
-      url: "https://experienceleague.adobe.com/en/perspectives/from-anonymous-visitor-to-engaged-lead-how-to-connect-marketo-and-web-sdk-identity",
-   }
   ],
 
   /** Same fields as LinkedIn: name, issuer, issued, expires (or ""), credentialId, optional url */
