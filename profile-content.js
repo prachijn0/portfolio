@@ -142,8 +142,7 @@ window.PROFILE_MIRROR = {
       title: "From anonymous visitor to engaged lead with Marketo",
       subtitle: "",
       url: "https://experienceleague.adobe.com/en/perspectives/from-anonymous-visitor-to-engaged-lead-how-to-connect-marketo-and-web-sdk-identity",
-   },
-    
+   }
   ],
 
   /** Same fields as LinkedIn: name, issuer, issued, expires (or ""), credentialId, optional url */
