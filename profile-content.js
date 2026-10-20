@@ -105,7 +105,11 @@ window.PROFILE_MIRROR = {
 
   /** Featured: Adobe Experience League community articles */
   featured: [
-    
+    {
+      title: "Building B2B audiences in Adobe Real-Time CDP",
+      subtitle: "",
+      url: "https://experienceleague.adobe.com/en/perspectives/building-b2b-audiences-in-adobe-real-time-cdp",
+     },
      {
       title: "Cross-device modal suppression with RTCDP for Target",
       subtitle: "",
@@ -290,7 +294,7 @@ window.PROFILE_MIRROR = {
     if (!root || !window.PROFILE_MIRROR.featured) return;
 
     const items = window.PROFILE_MIRROR.featured.slice(0, 7);
-    while (items.length < 7) {
+    while (items.length < 8) {
       items.push({ title: "", subtitle: "", url: "https://www.linkedin.com/in/prachijn0/" });
     }
 
