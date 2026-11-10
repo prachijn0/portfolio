@@ -38,8 +38,10 @@ window.PROFILE_MIRROR = {
             "Implemented marketing solutions that deliver on data-driven, personalized, one-to-one, experiences.",
             "Experience with end-to-end product delivery.",
             "Developed technical expertise on Adobe's cross-channel marketing tool by troubleshooting email & push campaigns, A/B tests, & performance metrics.",
-            "Worked with server-side API's (Bulk insertion API, Data Insertion API, Edge API) to upload offline data to adobe's platform to develop custom dashboards, seamlessly access features fr...",
-            "Helped clients to strategize and drive their audience creation and activation effort and extract business value from Adobe Audience Manager platform and Adobe Real-Time Customer Data ...",
+            "Worked with server-side API's (Bulk insertion API, Data Insertion API, Edge API) to upload offline data to adobe's platform to develop custom dashboards, seamlessly access features fr..."
+            ,
+            "Helped clients to strategize and drive their audience creation and activation effort and extract business value from Adobe Audience Manager platform and Adobe Real-Time Customer Data ..."
+            ,
             "Implemented Event forwarding in Adobe Experience Platform to send collected event data to a destination for server-side processing.",
             "Managed partnerships with ad-tech companies, ensuring seamless integration with third-party ad platforms and expanding monetization opportunities.",
           ],
@@ -96,7 +98,8 @@ window.PROFILE_MIRROR = {
           duration: "9 mos",
           location: "",
           description:
-            "This project proposes a new form of encryption that is similar to slang in human language. Using the context of the conversation develop substitute words to disguise the real meaning ...",
+            "This project proposes a new form of encryption that is similar to slang in human language. Using the context of the conversation develop substitute words to disguise the real meaning ..."
+          ,
           bullets: [],
         },
       ],
@@ -110,12 +113,12 @@ window.PROFILE_MIRROR = {
       subtitle: "",
       url: "https://experienceleague.adobe.com/en/perspectives/building-b2b-audiences-in-adobe-real-time-cdp",
      },
-     {
+    {
       title: "Cross-device modal suppression with RTCDP for Target",
       subtitle: "",
       url: "https://experienceleague.adobe.com/en/perspectives/cross-device-modal-suppression-with-rtcdp-for-target",
      },
-     {
+    {
       title: "From anonymous visitor to engaged lead with Marketo",
       subtitle: "",
       url: "https://experienceleague.adobe.com/en/perspectives/from-anonymous-visitor-to-engaged-lead-how-to-connect-marketo-and-web-sdk-identity",
@@ -293,10 +296,7 @@ window.PROFILE_MIRROR = {
     const root = document.getElementById("featured-mount");
     if (!root || !window.PROFILE_MIRROR.featured) return;
 
-    const items = window.PROFILE_MIRROR.featured.slice(0, 7);
-    while (items.length < 8) {
-      items.push({ title: "", subtitle: "", url: "https://www.linkedin.com/in/prachijn0/" });
-    }
+    const items = window.PROFILE_MIRROR.featured.slice(0, 8);
 
     root.innerHTML = items
       .map(function (f, i) {
