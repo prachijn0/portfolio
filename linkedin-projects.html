@@ -44,5 +44,25 @@
     </footer>
 
     <script src="profile-content.js"></script>
+    <script>
+      // Keep this article visible even if the shared Featured renderer filters its list.
+      document.addEventListener("DOMContentLoaded", function () {
+        var root = document.getElementById("featured-mount");
+        var url = "https://experienceleaguecommunities.adobe.com/adobe-analytics-3/unlock-the-power-of-custom-datastreams-for-your-mobile-apps-elevate-your-data-collection-strategy-12783";
+        if (!root || root.querySelector('a[href="' + url + '"]')) return;
+
+        var card = document.createElement("a");
+        card.className = "featured-card";
+        card.href = url;
+        card.target = "_blank";
+        card.rel = "noreferrer";
+        card.innerHTML =
+          '<span class="featured-card-num" aria-hidden="true">' + (root.children.length + 1) + '</span>' +
+          '<span class="featured-card-kicker">Adobe Experience League · Community</span>' +
+          '<h3 class="featured-card-title">Transform Your Mobile App Analytics with Customized Datastreams!</h3>' +
+          '<span class="featured-card-cta">Read article <span aria-hidden="true">→</span></span>';
+        root.appendChild(card);
+      });
+    </script>
   </body>
 </html>
